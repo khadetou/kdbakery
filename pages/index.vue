@@ -145,8 +145,8 @@
                     class="image about-signature"
                   />
                   <div class="about-name-wrapper">
-                    <div class="about-name">Harold Brown</div>
-                    <div class="about-rol">Master Chef</div>
+                    <div class="about-name">Cheikh Anta Diop</div>
+                    <div class="about-rol">Chef Cuisinier</div>
                   </div>
                 </div>
               </div>
