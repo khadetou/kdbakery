@@ -71,7 +71,7 @@
               <div class="section-subtitle">KD Bakery</div>
               <div class="section-title">À Propos de Nous</div>
             </div>
-            <p>
+            <p class="tw-text-[#777]">
               KD Bakery est une boulangerie de luxe alliant également un
               restaurant et un bar, offrant une expérience culinaire
               exceptionnelle au Sénégal. Le site internet, actuellement en
@@ -79,7 +79,7 @@
               l’exception de la boulangerie, mais aussi de créer une véritable
               communauté autour de cet espace accueillant et raffiné.
             </p>
-            <p>
+            <p class="tw-text-[#777]">
               Sous la direction du meilleur chef sénégalais décoré en France, KD
               Bakery promet une cuisine de qualité supérieure alliant traditions
               locales et techniques raffinées. Rejoignez-nous pour découvrir la
@@ -255,156 +255,114 @@
       </div>
     </section>
 
-    <!-- Testimonials - Opening hours -->
-    <!-- <section
-      class="background bg-img bg-fixed section-padding pb-0"
-      data-background="/assets/img/banner5.jpg"
-      data-overlay-dark="6"
+    <!-- Avant-Première - Restez Informés -->
+    <section
+      class="background bg-img bg-fixed section-padding pb-0 tw-bg-[url('https://res.cloudinary.com/didh3wbru/image/upload/v1739017447/banner_5_pruuip.jpg')]"
+      data-overlay-dark="3"
     >
       <div class="container">
         <div class="row">
-          
           <div class="col-md-6">
-            <div class="testimonials">
-              <div class="testimonials-box">
-                <div class="owl-carousel owl-theme">
-                  <div class="item">
-                    <span>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                    </span>
-                    <p>
-                      Restaurant dapibus asue metus the nec feusiate eraten miss
-                      hendreri net ve ante the lemon sanleo nectan feugiat erat
-                      hendrerit necuis ve ante otel inilla duiman at finibus
-                      viverra neca the sene on satien.
-                    </p>
-                    <div class="info">
-                      <div class="author-img">
-                        <img src="/assets/img/team/4.jpg" alt="" />
-                      </div>
-                      <div class="cont">
-                        <h6>Emily Brown</h6>
-                        <span>Customer review</span>
-                      </div>
-                    </div>
+            <div class="avant-premiere">
+              <div class="avant-premiere-box">
+                <!-- Removed owl-carousel and owl-theme as we're not using testimonials anymore -->
+                <div class="item">
+                  <h4 class="mb-4">Avant-Première</h4>
+                  <p class="mb-4">
+                    KD Bakery, c'est la rencontre de la tradition pâtissière
+                    française et des saveurs authentiques du Sénégal. Notre
+                    chef, formé aux meilleures écoles, vous prépare une
+                    expérience gustative inoubliable.
+                  </p>
+                  <p class="mb-4">
+                    "J'ai toujours rêvé de créer un lieu où le luxe rencontre la
+                    convivialité, où chaque bouchée raconte une histoire." -
+                    Cheikh Anta Diop, Chef Cuisinier.
+                  </p>
+                  <!--  countdown component goes here -->
+                  <div class="mb-4">
+                    <!-- You'll need to implement a countdown component in Vue -->
+                    <!-- Example: <Countdown :targetDate="openingDate" /> -->
+                    <!-- Replace openingDate with a date object -->
                   </div>
-                  <div class="item">
-                    <span>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                    </span>
+                  <!-- Add more quotes or information here, if available -->
+                  <div class="mt-4">
                     <p>
-                      Restaurant dapibus asue metus the nec feusiate eraten miss
-                      hendreri net ve ante the lemon sanleo nectan feugiat erat
-                      hendrerit necuis ve ante otel inilla duiman at finibus
-                      viverra neca the sene on satien.
+                      Suivez-nous pour les dernières nouvelles et les aperçus
+                      exclusifs!
                     </p>
-                    <div class="info">
-                      <div class="author-img">
-                        <img src="/assets/img/team/1.jpg" alt="" />
-                      </div>
-                      <div class="cont">
-                        <h6>Nolan White</h6>
-                        <span>Customer review</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="item">
-                    <span>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                      <i class="star-rating"></i>
-                    </span>
-                    <p>
-                      Restaurant dapibus asue metus the nec feusiate eraten miss
-                      hendreri net ve ante the lemon sanleo nectan feugiat erat
-                      hendrerit necuis ve ante otel inilla duiman at finibus
-                      viverra neca the sene on satien.
-                    </p>
-                    <div class="info">
-                      <div class="author-img">
-                        <img src="/assets/img/team/5.jpg" alt="" />
-                      </div>
-                      <div class="cont">
-                        <h6>Olivia Martin</h6>
-                        <span>Customer review</span>
-                      </div>
-                    </div>
+                    <!-- implement social media or share -->
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        
+
           <div class="col-md-5 offset-md-1">
             <div class="opening-hours-box">
               <div class="head-box">
-                <h4>Opening Hours</h4>
+                <h4>Restez Informés</h4>
               </div>
               <div class="content-box">
                 <div class="item">
                   <div class="info">
-                    <div class="row">
-                      <div class="col col-md-5">
-                        <div class="cont">
-                          <h6 class="day">Sunday to Tuesday</h6>
-                          <span class="time">10:00</span> <br />
-                          <span class="time">22:00</span>
-                        </div>
+                    <!-- Newsletter form here -->
+                    <form class="newsletter-form">
+                      <div class="mb-3">
+                        <label for="email" class="form-label tw-text-white"
+                          >Votre Email:</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="email"
+                          placeholder="Entrez votre email"
+                          required
+                        />
                       </div>
-                      <div class="col col-md-2">
-                        <div class="vl"></div>
-                      </div>
-                      <div class="col col-md-5">
-                        <div class="cont">
-                          <h6 class="day">Friday to Saturday</h6>
-                          <span class="time">12:00</span> <br />
-                          <span class="time">19:00</span>
-                        </div>
-                      </div>
-                    </div>
+                      <button type="submit" class="button-1 mt-15">
+                        S'inscrire
+                      </button>
+                    </form>
+                    <p class="mt-4">
+                      <small>
+                        En vous inscrivant, vous recevrez des nouvelles
+                        exclusives sur notre ouverture et nos créations
+                        gourmandes.
+                      </small>
+                    </p>
                   </div>
                 </div>
               </div>
-              <a href="index.html" class="button-1 mt-15">Make A Reservation</a>
+
+              <p class="mt-0">
+                <a href="#"><i class="ti-location-pin"></i></a
+                ><small>Adresse: [Insérer Adresse ici] Dakar, Sénégal</small>
+              </p>
               <p>
                 <small
-                  >You can also call:
-                  <a href="mailto:8551004444">855 100 4444</a> to make a
-                  reservation.</small
+                  >Contactez nous:
+                  <a href="tel:+221771398281">+221 77 139 82 81</a></small
                 >
-              </p>
-              <p class="mt-0">
-                <a href="#0"><i class="ti-location-pin"></i></a
-                ><small>1616 Broadway NY, New York 10001 USA</small>
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- Services Box -->
-    <!-- <section class="services-box section-padding">
+    <section class="services-box section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <div class="item">
               <span class="icon flaticon-cooking"></span>
               <div class="cont">
-                <h5>Breakfast</h5>
-                <p>
-                  Breakfast ut nisl quam nestibulum drana odio elementum sceisue
-                  the can golden varius the dis monte.
+                <h5>Fusion Franco-Sénégalaise</h5>
+                <p class="tw-text-[#777]">
+                  La rencontre subtile des techniques françaises et des saveurs
+                  authentiques du Sénégal.
                 </p>
               </div>
             </div>
@@ -413,10 +371,10 @@
             <div class="item">
               <span class="icon flaticon-tray-2"></span>
               <div class="cont">
-                <h5>Lunch</h5>
-                <p>
-                  The Lunch ut nisl quam nestibulum drana odio elementum sceisue
-                  the can golden varius the dis monte.
+                <h5>Ingrédients Locaux d'Exception</h5>
+                <p class="tw-text-[#777]">
+                  Des ingrédients frais et savoureux, issus du terroir
+                  sénégalais, pour une expérience gustative authentique.
                 </p>
               </div>
             </div>
@@ -425,27 +383,27 @@
             <div class="item">
               <span class="icon flaticon-chef-1"></span>
               <div class="cont">
-                <h5>Dinner</h5>
-                <p>
-                  The Dinner ut nisl quam nestibulum drana odio elementum
-                  sceisue the can golden varius the dis monte.
+                <h5>Savoir-faire Artisanal et Luxe</h5>
+                <p class="tw-text-[#777]">
+                  Un travail artisanal soigné et une attention particulière aux
+                  détails pour une expérience culinaire inoubliable.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- First Class Services -->
-    <!-- <div class="first-class-services section-padding">
+    <div class="first-class-services section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-head text-center">
-              <div class="section-subtitle">Firs-Class</div>
-              <div class="section-title white">Our Features</div>
-              <div class="section-backtitle">Services</div>
+              <div class="section-subtitle">Goûtez à l'Exception</div>
+              <div class="section-title white">Nos Créations Signature</div>
+              <div class="section-backtitle">Pâtisseries</div>
               <span class="icon white">
                 <i class="flaticon-tray-2"></i>
               </span>
@@ -453,112 +411,212 @@
           </div>
         </div>
         <div class="row">
+          <!-- Croissant au Beurre de Karité -->
           <div class="col-md-4">
             <div class="square-flip">
               <div
-                class="square bg-img"
-                data-background="/assets/img/services/1.jpg"
+                class="square bg-img tw-bg-[url('https://res.cloudinary.com/didh3wbru/image/upload/v1739021123/1_og7lqg.jpg')]"
               >
-                <span class="sale">NEW</span>
+                <!-- Removed sale span -->
                 <div
                   class="square-container d-flex align-items-end justify-content-end"
                 >
                   <div class="box-title">
-                    <div class="icon flaticon-menu"></div>
-                    <h6>Current Menu</h6>
-                    <h4>Daily New Fresh Menus</h4>
+                    <div class="icon flaticon-croissant"></div>
+                    <h6>Pâtisserie</h6>
+                    <h4>Croissant au Beurre de Karité</h4>
                   </div>
                 </div>
                 <div class="flip-overlay"></div>
               </div>
               <div class="square2">
                 <div class="square-container2">
-                  <h6>Current Menu</h6>
-                  <h4>Daily New Fresh Menus</h4>
+                  <h6>Pâtisserie</h6>
+                  <h4>Croissant au Beurre de Karité</h4>
                   <p>
-                    <i
-                      >Lorem nisl miss nestibulum nec odio duru the aucan ula
-                      orci varius natoque enatau manis dis arturient monte miss
-                      morbine.</i
-                    >
+                    <i>
+                      Une viennoiserie d'exception, où le beurre de karité
+                      révèle une texture fondante et un goût subtilement
+                      noisetté. Un incontournable de KD Bakery.
+                    </i>
                   </p>
-                  <a href="#0" class="button-4 mt-15">View Menu<span></span></a>
+                  <a href="#" class="button-4 mt-15">Découvrir<span></span></a>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- Tarte au Chocolat Noir du Sénégal -->
           <div class="col-md-4">
             <div class="square-flip">
               <div
-                class="square bg-img"
-                data-background="/assets/img/services/2.jpg"
+                class="square bg-img tw-bg-[url('https://res.cloudinary.com/didh3wbru/image/upload/v1739021124/2_smen4c.jpg')]"
               >
                 <div
                   class="square-container d-flex align-items-end justify-content-end"
                 >
                   <div class="box-title">
-                    <div class="icon flaticon-food-serving"></div>
-                    <h6>Address of Taste</h6>
-                    <h4>Fresh Ingredient Meals</h4>
+                    <div class="icon flaticon-chocolate"></div>
+                    <h6>Dessert</h6>
+                    <h4>Tarte au Chocolat Noir du Sénégal</h4>
                   </div>
                 </div>
                 <div class="flip-overlay"></div>
               </div>
               <div class="square2">
                 <div class="square-container2">
-                  <h6>Address of Taste</h6>
-                  <h4>Fresh Ingredient Meals</h4>
+                  <h6>Dessert</h6>
+                  <h4>Tarte au Chocolat Noir du Sénégal</h4>
                   <p>
-                    <i
-                      >Lorem nisl miss nestibulum nec odio duru the aucan ula
-                      orci varius natoque enatau manis dis arturient monte miss
-                      morbine.</i
-                    >
+                    <i>
+                      Laissez-vous séduire par l'intensité d'un chocolat noir
+                      d'origine sénégalaise, sublimé dans une tarte à la fois
+                      riche et délicate. Une expérience gustative inoubliable.
+                    </i>
                   </p>
-                  <a href="#0" class="button-4 mt-15">View Menu<span></span></a>
+                  <a href="#" class="button-4 mt-15">Découvrir<span></span></a>
                 </div>
               </div>
             </div>
           </div>
+
+          <!-- Pâtisserie à la Mangue -->
           <div class="col-md-4">
             <div class="square-flip">
               <div
-                class="square bg-img"
-                data-background="/assets/img/services/3.jpg"
+                class="square bg-img tw-bg-[url('https://res.cloudinary.com/didh3wbru/image/upload/v1739021123/3_cxyiwc.jpg')]"
               >
                 <div
                   class="square-container d-flex align-items-end justify-content-end"
                 >
                   <div class="box-title">
-                    <div class="icon flaticon-chef"></div>
-                    <h6>Executive Chefs</h6>
-                    <h4>Senior & Talented Chefs</h4>
+                    <div class="icon flaticon-pastry"></div>
+                    <h6>Pâtisserie</h6>
+                    <h4>Pâtisserie à la Mangue</h4>
                   </div>
                 </div>
                 <div class="flip-overlay"></div>
               </div>
               <div class="square2">
                 <div class="square-container2">
-                  <h6>Executive Chefs</h6>
-                  <h4>Senior & Talented Chefs</h4>
+                  <h6>Pâtisserie</h6>
+                  <h4>Pâtisserie à la Mangue</h4>
                   <p>
-                    <i
-                      >Lorem nisl miss nestibulum nec odio duru the aucan ula
-                      orci varius natoque enatau manis dis arturient monte miss
-                      morbine.</i
-                    >
+                    <i>
+                      Un mariage parfait entre la fraîcheur de la mangue
+                      sénégalaise et la finesse de la pâtisserie française. Une
+                      création légère et fruitée qui vous transportera sous les
+                      tropiques.
+                    </i>
                   </p>
-                  <a href="#0" class="button-4 mt-15">Our Chefs<span></span></a>
+                  <a href="#" class="button-4 mt-15">Découvrir<span></span></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
+
+    <!-- Restaurant - Bientôt Disponible Section -->
+    <section class="restaurant-preview bg-fixed section-padding bg-cream">
+      <!-- bg-cream ou une autre couleur claire -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-head text-center">
+              <div class="section-subtitle">Expérience Gastronomique</div>
+              <div class="section-title">Restaurant - Bientôt Disponible</div>
+              <div class="section-backtitle">Restaurant</div>
+              <span class="icon">
+                <i class="flaticon-chef-1"></i>
+                <!-- Icône de chef ou restaurant -->
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center">
+            <p class="mb-4 tw-text-[#777]">
+              Au-delà de la boulangerie-pâtisserie, KD Bakery vous proposera
+              bientôt une expérience culinaire gastronomique unique en son
+              genre. Notre chef de renommée internationale élaborera des plats
+              raffinés, mettant en valeur les produits d'exception du Sénégal et
+              son savoir-faire acquis dans les plus grandes cuisines.
+            </p>
+            <p class="mb-4 tw-text-[#777]">
+              Imaginez des dîners élégants dans un cadre chaleureux et raffiné,
+              où chaque plat sera une célébration des saveurs locales et de la
+              gastronomie française.
+            </p>
+            <!-- Citation du Chef (optionnel, mais recommandé) -->
+            <blockquote class="blockquote text-center mb-4">
+              <p class="mb-0">
+                "Mon ambition pour le restaurant de KD Bakery est de créer un
+                lieu où la cuisine sénégalaise atteint de nouveaux sommets de
+                raffinement, tout en restant authentique et accessible."
+              </p>
+              <footer class="blockquote-footer">
+                Cheikh Anta Diop,
+                <cite title="Source Title">Chef Cuisinier</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+        <!-- Exemples de Catégories de Plats (si vous avez des idées générales) -->
+        <div class="row mt-4">
+          <div class="col-md-4 text-center">
+            <div class="restaurant-category">
+              <h6 class="mb-2 font-semibold">Entrées Raffinées</h6>
+              <p class="text-sm tw-text-[#777]">
+                Amuse-bouches créatifs, saveurs délicates, mises en bouche
+                surprenantes... (Exemples à venir)
+              </p>
+              <!-- Icône ou image optionnelle -->
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="restaurant-category">
+              <h6 class="mb-2 font-semibold">Plats Principaux Créatifs</h6>
+              <p class="text-sm tw-text-[#777]">
+                Viandes nobles, poissons frais, options végétariennes
+                inventives... (Exemples à venir)
+              </p>
+              <!-- Icône ou image optionnelle -->
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="restaurant-category">
+              <h6 class="mb-2 font-semibold">Desserts Gastronomiques</h6>
+              <p class="text-sm tw-text-[#777]">
+                Créations sucrées élégantes, accords parfaits, douceurs
+                inoubliables... (Exemples à venir)
+              </p>
+              <!-- Icône ou image optionnelle -->
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <p class="tw-text-[#777]">
+              Restez connectés pour découvrir le menu complet du restaurant, la
+              date d'ouverture et les informations de réservation !
+            </p>
+            <!-- Lien vers la section "Restez Informés" ou Newsletter -->
+            <a
+              href="#"
+              data-scroll-nav="7"
+              class="button-1 mt-30 tw-text-[#462619] hover:tw-text-white"
+              >Restez Informés<span></span
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- MenuBook -->
-    <!-- <section
+    <section
       class="menu-book tabs section-padding position-re tw-bg-[#462619]"
       data-scroll-index="1"
     >
@@ -566,9 +624,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-head text-center">
-              <div class="section-subtitle">Food & Wine</div>
-              <div class="section-title white">Menu Book</div>
-              <div class="section-backtitle">Menu</div>
+              <div class="section-subtitle">Un Aperçu Délicieux</div>
+              <div class="section-title white">Avant-Goût Gourmand</div>
+              <div class="section-backtitle">Menu à Venir</div>
               <span class="icon white">
                 <i class="flaticon-chef"></i>
               </span>
@@ -579,11 +637,14 @@
           <div class="col-md-10">
             <div class="tab-links mb-60">
               <ul class="text-center">
-                <li class="item-link current" data-tab="tab-1">Starters</li>
-                <li class="item-link" data-tab="tab-2">Mains</li>
-                <li class="item-link" data-tab="tab-3">Salads</li>
-                <li class="item-link" data-tab="tab-4">Desserts</li>
-                <li class="item-link" data-tab="tab-5">Wine</li>
+                <li class="item-link current" data-tab="tab-1">
+                  Pâtisseries & Boulangerie
+                </li>
+                <!-- Supprimer les autres onglets -->
+                <!-- <li class="item-link" data-tab="tab-2">Mains</li>
+              <li class="item-link" data-tab="tab-3">Salads</li>
+              <li class="item-link" data-tab="tab-4">Desserts</li>
+              <li class="item-link" data-tab="tab-5">Wine</li> -->
               </ul>
             </div>
           </div>
@@ -600,20 +661,26 @@
                           <a
                             href="/assets/img/menu/starters/1.jpg"
                             class="image-popup-vertical-fit"
-                            title="Mozzarella Dippers"
-                            ><img
+                            title="Croissant Signature Karité"
+                          >
+                            <img
                               src="/assets/img/menu/starters/1.jpg"
-                              alt=""
-                              title=""
+                              alt="Croissant Signature Karité"
+                              title="Croissant Signature Karité"
                             />
                           </a>
                         </div>
                         <div class="flex">
-                          <div class="title">Mozzarella Dippers</div>
+                          <div class="title">Croissant Signature Karité</div>
                           <div class="dots"></div>
-                          <div class="price">$27.00</div>
+                          <!-- Suppression du prix pour l'avant-première -->
                         </div>
-                        <p><i>Fried mozzarella sticks, marinara sauce</i></p>
+                        <p>
+                          <i
+                            >Feuilletage léger et beurre de karité local, une
+                            expérience unique.</i
+                          >
+                        </p>
                       </div>
                     </div>
                     <div class="menu-list mb-30">
@@ -622,23 +689,26 @@
                           <a
                             href="/assets/img/menu/starters/2.jpg"
                             class="image-popup-vertical-fit"
-                            title="Buffalo Wings"
-                            ><img
+                            title="Pain Chocolat Tradition Revisité"
+                          >
+                            <img
                               src="/assets/img/menu/starters/2.jpg"
-                              alt=""
-                              title=""
+                              alt="Pain Chocolat Tradition Revisité"
+                              title="Pain Chocolat Tradition Revisité"
                             />
                           </a>
                         </div>
                         <div class="flex">
-                          <div class="title">Buffalo Wings</div>
+                          <div class="title">
+                            Pain Chocolat Tradition Revisité
+                          </div>
                           <div class="dots"></div>
-                          <div class="price">$30.50</div>
+                          <!-- Suppression du prix pour l'avant-première -->
                         </div>
                         <p>
                           <i
-                            >Spicy chicken wings, blue cheese sauce, carrot,
-                            celery</i
+                            >Le classique pain au chocolat, sublimé avec une
+                            touche de cacao sénégalais.</i
                           >
                         </p>
                       </div>
@@ -649,719 +719,54 @@
                           <a
                             href="/assets/img/menu/starters/3.jpg"
                             class="image-popup-vertical-fit"
-                            title="Onion Rings"
-                            ><img
+                            title="Brioche Karité Orange"
+                          >
+                            <img
                               src="/assets/img/menu/starters/3.jpg"
-                              alt=""
-                              title=""
+                              alt="Brioche Karité Orange"
+                              title="Brioche Karité Orange"
                             />
                           </a>
                         </div>
                         <div class="flex">
-                          <div class="title">Onion Rings</div>
+                          <div class="title">Brioche Karité Orange</div>
                           <div class="dots"></div>
-                          <div class="price">$15.00</div>
+                          <!-- Suppression du prix pour l'avant-première -->
                         </div>
-                        <p><i>Fried onion rings, smoked aioli</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/starters/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Chilli Con Carne"
-                            ><img
-                              src="/assets/img/menu/starters/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Chilli Con Carne</div>
-                          <div class="dots"></div>
-                          <div class="price">$20.00</div>
-                        </div>
-                        <p><i>Spicy ground beef, bacon, kidney beans</i></p>
+                        <p>
+                          <i
+                            >Brioche moelleuse au beurre de karité, parfumée à
+                            l'orange douce du pays.</i
+                          >
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/starters/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Onion Rings"
-                            ><img
-                              src="/assets/img/menu/starters/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Onion Rings</div>
-                          <div class="dots"></div>
-                          <div class="price">$15.00</div>
-                        </div>
-                        <p><i>Fried onion rings, smoked aioli</i></p>
-                      </div>
-                    </div>
                     <div class="menu-list mb-30">
                       <div class="item">
                         <div class="img">
                           <a
                             href="/assets/img/menu/starters/4.jpg"
                             class="image-popup-vertical-fit"
-                            title="Chilli Con Carne"
-                            ><img
+                            title="Tartelette Mangue Passion"
+                          >
+                            <img
                               src="/assets/img/menu/starters/4.jpg"
-                              alt=""
-                              title=""
+                              alt="Tartelette Mangue Passion"
+                              title="Tartelette Mangue Passion"
                             />
                           </a>
                         </div>
                         <div class="flex">
-                          <div class="title">Chilli Con Carne</div>
+                          <div class="title">Tartelette Mangue Passion</div>
                           <div class="dots"></div>
-                          <div class="price">$20.00</div>
-                        </div>
-                        <p><i>Spicy ground beef, bacon, kidney beans</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/starters/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Mozzarella Dippers"
-                            ><img
-                              src="/assets/img/menu/starters/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Mozzarella Dippers</div>
-                          <div class="dots"></div>
-                          <div class="price">$27.00</div>
-                        </div>
-                        <p><i>Fried mozzarella sticks, marinara sauce</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/starters/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Buffalo Wings"
-                            ><img
-                              src="/assets/img/menu/starters/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Buffalo Wings</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.50</div>
+                          <!-- Suppression du prix pour l'avant-première -->
                         </div>
                         <p>
                           <i
-                            >Spicy chicken wings, blue cheese sauce, carrot,
-                            celery</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content" id="tab-2">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Rusty’s Burger"
-                            ><img
-                              src="/assets/img/menu/mains/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Rusty’s Burger</div>
-                          <div class="dots"></div>
-                          <div class="price">$35.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Smoked pulled beef ribs, bbq sauce, cheddar,
-                            crispy</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Cajun Fish Steak"
-                            ><img
-                              src="/assets/img/menu/mains/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Cajun Fish Steak</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.00</div>
-                        </div>
-                        <p>
-                          <i>Cajun spicied seabass, deep fried baby potatoes</i>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Southern Fried Chicken"
-                            ><img
-                              src="/assets/img/menu/mains/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Southern Fried Chicken</div>
-                          <div class="dots"></div>
-                          <div class="price">$45.50</div>
-                        </div>
-                        <p>
-                          <i
-                            >Cajun coated chicken breast, fries and honey
-                            mustard</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="House Avocado Tempura"
-                            ><img
-                              src="/assets/img/menu/mains/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">House Avocado Tempura</div>
-                          <div class="dots"></div>
-                          <div class="price">$40.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Sweetcorn kernels, butter, cloves garlic, potato</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Southern Fried Chicken"
-                            ><img
-                              src="/assets/img/menu/mains/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Southern Fried Chicken</div>
-                          <div class="dots"></div>
-                          <div class="price">$45.50</div>
-                        </div>
-                        <p>
-                          <i
-                            >Cajun coated chicken breast, fries and honey
-                            mustard</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="House Avocado Tempura"
-                            ><img
-                              src="/assets/img/menu/mains/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">House Avocado Tempura</div>
-                          <div class="dots"></div>
-                          <div class="price">$40.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Sweetcorn kernels, butter, cloves garlic, potato</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Rusty’s Burger"
-                            ><img
-                              src="/assets/img/menu/mains/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Rusty’s Burger</div>
-                          <div class="dots"></div>
-                          <div class="price">$35.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Smoked pulled beef ribs, bbq sauce, cheddar,
-                            crispy</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/mains/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Cajun Fish Steak"
-                            ><img
-                              src="/assets/img/menu/mains/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Cajun Fish Steak</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.00</div>
-                        </div>
-                        <p>
-                          <i>Cajun spicied seabass, deep fried baby potatoes</i>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content" id="tab-3">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Ceaser Salad"
-                            ><img
-                              src="/assets/img/menu/salads/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Ceaser Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$15.00</div>
-                        </div>
-                        <p><i>Romaine lettuce, croutons, parmigiano</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Waldorf Salad"
-                            ><img
-                              src="/assets/img/menu/salads/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Waldorf Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$10.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Lettuce, celery, apple, grape, walnut, waldorf
-                            sauce</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Grilled Salmon Salad"
-                            ><img
-                              src="/assets/img/menu/salads/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Grilled Salmon Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$25.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Grilled salmon, mixed greens, capers, orange
-                            slices</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Chicken Cobb Salad"
-                            ><img
-                              src="/assets/img/menu/salads/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Chicken Cobb Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.50</div>
-                        </div>
-                        <p>
-                          <i
-                            >Iceberg lettuce, cherry tomatoes, blue cheese,
-                            avocado</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Grilled Salmon Salad"
-                            ><img
-                              src="/assets/img/menu/salads/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Grilled Salmon Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$25.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Grilled salmon, mixed greens, capers, orange
-                            slices</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Chicken Cobb Salad"
-                            ><img
-                              src="/assets/img/menu/salads/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Chicken Cobb Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.50</div>
-                        </div>
-                        <p>
-                          <i
-                            >Iceberg lettuce, cherry tomatoes, blue cheese,
-                            avocado</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Ceaser Salad"
-                            ><img
-                              src="/assets/img/menu/salads/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Ceaser Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$15.00</div>
-                        </div>
-                        <p><i>Romaine lettuce, croutons, parmigiano</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/salads/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Waldorf Salad"
-                            ><img
-                              src="/assets/img/menu/salads/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Waldorf Salad</div>
-                          <div class="dots"></div>
-                          <div class="price">$10.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Lettuce, celery, apple, grape, walnut, waldorf
-                            sauce</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content" id="tab-4">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/desserts/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="New York Cheesecake"
-                            ><img
-                              src="/assets/img/menu/desserts/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">New York Cheesecake</div>
-                          <div class="dots"></div>
-                          <div class="price">$20.00</div>
-                        </div>
-                        <p><i>Cheesecake, strawberry & lime salad</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/desserts/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Rusty’s ice-cream"
-                            ><img
-                              src="/assets/img/menu/desserts/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Rusty’s ice-cream</div>
-                          <div class="dots"></div>
-                          <div class="price">$10.50</div>
-                        </div>
-                        <p>
-                          <i>Vanilla, bourbon, cookie, chocolate ice-cream</i>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/desserts/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Vegan Potato Waffles"
-                            ><img
-                              src="/assets/img/menu/desserts/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Vegan Potato Waffles</div>
-                          <div class="dots"></div>
-                          <div class="price">$18.00</div>
-                        </div>
-                        <p>
-                          <i>Chocolate chip cookies, marshmallow, chocolate</i>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/desserts/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Apple & Pear Crumble"
-                            ><img
-                              src="/assets/img/menu/desserts/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Apple & Pear Crumble</div>
-                          <div class="dots"></div>
-                          <div class="price">$40.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Caramelized pear, oat crumble, vanilla ice-cream</i
-                          >
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/desserts/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Vegan Potato Waffles"
-                            ><img
-                              src="/assets/img/menu/desserts/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Vegan Potato Waffles</div>
-                          <div class="dots"></div>
-                          <div class="price">$18.00</div>
-                        </div>
-                        <p>
-                          <i>Chocolate chip cookies, marshmallow, chocolate</i>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/desserts/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Apple & Pear Crumble"
-                            ><img
-                              src="/assets/img/menu/desserts/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Apple & Pear Crumble</div>
-                          <div class="dots"></div>
-                          <div class="price">$40.00</div>
-                        </div>
-                        <p>
-                          <i
-                            >Caramelized pear, oat crumble, vanilla ice-cream</i
+                            >Exotisme et fraîcheur : mangue juteuse et passion
+                            acidulée en tartelette.</i
                           >
                         </p>
                       </div>
@@ -1372,244 +777,88 @@
                           <a
                             href="/assets/img/menu/desserts/1.jpg"
                             class="image-popup-vertical-fit"
-                            title="New York Cheesecake"
-                            ><img
+                            title="Cake Baobab Citron Vert"
+                          >
+                            <img
                               src="/assets/img/menu/desserts/1.jpg"
-                              alt=""
-                              title=""
+                              alt="Cake Baobab Citron Vert"
+                              title="Cake Baobab Citron Vert"
                             />
                           </a>
                         </div>
                         <div class="flex">
-                          <div class="title">New York Cheesecake</div>
+                          <div class="title">Cake Baobab Citron Vert</div>
                           <div class="dots"></div>
-                          <div class="price">$20.00</div>
+                          <!-- Suppression du prix pour l'avant-première -->
                         </div>
-                        <p><i>Cheesecake, strawberry & lime salad</i></p>
+                        <p>
+                          <i
+                            >Le fruit du baobab apporte une touche acidulée
+                            unique à ce cake léger.</i
+                          >
+                        </p>
                       </div>
                     </div>
-                    <div class="menu-list">
+                    <div class="menu-list mb-30">
                       <div class="item">
                         <div class="img">
                           <a
                             href="/assets/img/menu/desserts/2.jpg"
                             class="image-popup-vertical-fit"
-                            title="Rusty’s ice-cream"
-                            ><img
+                            title="Pain au Mil Traditionnel"
+                          >
+                            <img
                               src="/assets/img/menu/desserts/2.jpg"
-                              alt=""
-                              title=""
+                              alt="Pain au Mil Traditionnel"
+                              title="Pain au Mil Traditionnel"
                             />
                           </a>
                         </div>
                         <div class="flex">
-                          <div class="title">Rusty’s ice-cream</div>
+                          <div class="title">Pain au Mil Traditionnel</div>
                           <div class="dots"></div>
-                          <div class="price">$10.50</div>
+                          <!-- Suppression du prix pour l'avant-première -->
                         </div>
                         <p>
-                          <i>Vanilla, bourbon, cookie, chocolate ice-cream</i>
+                          <i
+                            >Redécouvrez la saveur ancestrale du pain de mil,
+                            cuit à la perfection.</i
+                          >
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="tab-content" id="tab-5">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Riscos Malbec"
-                            ><img
-                              src="/assets/img/menu/wine/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Riscos Malbec</div>
-                          <div class="dots"></div>
-                          <div class="price">$25.00</div>
-                        </div>
-                        <p><i>Full, Redcurrant, Spice, Chile</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Dom Perignon"
-                            ><img
-                              src="/assets/img/menu/wine/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Dom Perignon</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.00</div>
-                        </div>
-                        <p><i>Stylish, Premium, Iconic, Champagne</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Amarone Classico"
-                            ><img
-                              src="/assets/img/menu/wine/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Amarone Classico</div>
-                          <div class="dots"></div>
-                          <div class="price">$20.00</div>
-                        </div>
-                        <p><i>Intense, Rich, Spice, Italy</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Valle Berta Gavi"
-                            ><img
-                              src="/assets/img/menu/wine/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Valle Berta Gavi</div>
-                          <div class="dots"></div>
-                          <div class="price">$45.00</div>
-                        </div>
-                        <p><i>Clean, Soft, Honeysuckle, Italy</i></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/3.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Amarone Classico"
-                            ><img
-                              src="/assets/img/menu/wine/3.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Amarone Classico</div>
-                          <div class="dots"></div>
-                          <div class="price">$20.00</div>
-                        </div>
-                        <p><i>Intense, Rich, Spice, Italy</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/4.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Valle Berta Gavi"
-                            ><img
-                              src="/assets/img/menu/wine/4.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Valle Berta Gavi</div>
-                          <div class="dots"></div>
-                          <div class="price">$45.00</div>
-                        </div>
-                        <p><i>Clean, Soft, Honeysuckle, Italy</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list mb-30">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/1.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Riscos Malbec"
-                            ><img
-                              src="/assets/img/menu/wine/1.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Riscos Malbec</div>
-                          <div class="dots"></div>
-                          <div class="price">$25.00</div>
-                        </div>
-                        <p><i>Full, Redcurrant, Spice, Chile</i></p>
-                      </div>
-                    </div>
-                    <div class="menu-list">
-                      <div class="item">
-                        <div class="img">
-                          <a
-                            href="/assets/img/menu/wine/2.jpg"
-                            class="image-popup-vertical-fit"
-                            title="Dom Perignon"
-                            ><img
-                              src="/assets/img/menu/wine/2.jpg"
-                              alt=""
-                              title=""
-                            />
-                          </a>
-                        </div>
-                        <div class="flex">
-                          <div class="title">Dom Perignon</div>
-                          <div class="dots"></div>
-                          <div class="price">$30.00</div>
-                        </div>
-                        <p><i>Stylish, Premium, Iconic, Champagne</i></p>
-                      </div>
-                    </div>
+                <div class="row mt-4">
+                  <div class="col-md-12 text-center">
+                    <p class="italic text-white-700">
+                      *Menu complet et tarifs à découvrir lors de l'ouverture
+                      officielle de KD Bakery.*
+                    </p>
                   </div>
                 </div>
               </div>
+              <!-- Supprimer les autres tab-content -->
+              <!--
+            <div class="tab-content" id="tab-2">
+               </div>
+            <div class="tab-content" id="tab-3">
+               </div>
+            <div class="tab-content" id="tab-4">
+               </div>
+            <div class="tab-content" id="tab-5">
+               </div>
+             -->
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- Restaurant Video -->
     <section
-      class="section-padding video-wrapper video bg-img bg-fixed"
+      class="section-padding video-wrapper video bg-img bg-fixed tw-bg-[url('https://res.cloudinary.com/didh3wbru/image/upload/v1738960741/banner_2_fizmfs.jpg')]"
       data-overlay-dark="4"
-      data-background="https://res.cloudinary.com/didh3wbru/image/upload/v1738960741/banner_2_fizmfs.jpg"
     >
       <div class="container">
         <div class="row">
@@ -1633,16 +882,15 @@
         </div>
       </div>
     </section>
-
-    <!-- Team -->
-    <!-- <section class="team section-padding">
+    <!-- TEAM -->
+    <section class="team section-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-head text-center">
-              <div class="section-subtitle">Our Experts</div>
-              <div class="section-title white">Meet Our Chefs</div>
-              <div class="section-backtitle">Chefs</div>
+              <div class="section-subtitle">Notre Expertise</div>
+              <div class="section-title white">Rencontrez Notre Chef</div>
+              <div class="section-backtitle">Équipe</div>
               <span class="icon white">
                 <i class="flaticon-chef"></i>
               </span>
@@ -1652,88 +900,126 @@
         <div class="row">
           <div class="col-md-12">
             <div class="owl-carousel owl-theme">
+              <!-- Chef Cheikh Anta Diop Card -->
               <div class="team-card mb-30">
                 <div class="team-img">
-                  <img src="/assets/img/team/chef1.jpg" alt="" class="w-100" />
+                  <img
+                    src="https://res.cloudinary.com/didh3wbru/image/upload/v1738956977/chef_spfldg.jpg"
+                    alt="Cheikh Anta Diop - Chef Cuisinier KD Bakery"
+                    class="w-100"
+                  />
                 </div>
                 <div class="team-content">
                   <h3 class="team-title">
-                    Raphael Moss<span>Executive Head Chef</span>
+                    Cheikh Anta Diop<span>Chef Cuisinier</span>
                   </h3>
                   <p class="team-text">
-                    Nulla quis efficitur lacus sulvinar suere ausue in eduis
-                    euro vesatien arcuman ontese auctor ac aleuam aretra.
+                    Chef de renom, formé en France et passionné par la fusion
+                    des traditions culinaires françaises et sénégalaises. Cheikh
+                    Anta Diop est le cœur créatif de KD Bakery, apportant son
+                    expertise et sa vision unique à chaque création.
                   </p>
-                  <div class="social">
-                    <div class="full-width">
-                      <a href="#"><i class="ti-linkedin"></i></a>
-                      <a href="#"><i class="ti-facebook"></i></a>
-                      <a href="#"><i class="ti-twitter"></i></a>
-                      <a href="#"><i class="ti-instagram"></i></a>
-                    </div>
+                  <!-- Supprimer les liens sociaux si non pertinents pour le chef pour l'instant -->
+                  <!-- <div class="social">
+                  <div class="full-width">
+                    <a href="#"><i class="ti-linkedin"></i></a>
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
                   </div>
+                </div> -->
                 </div>
                 <div class="title-box">
                   <h3 class="mb-0">
-                    Raphael Moss<span>Executive Head Chef</span>
+                    Cheikh Anta Diop<span>Chef Cuisinier</span>
                   </h3>
                 </div>
               </div>
-              <div class="team-card mb-30">
-                <div class="team-img">
-                  <img src="/assets/img/team/chef2.jpg" alt="" class="w-100" />
-                </div>
-                <div class="team-content">
-                  <h3 class="team-title">
-                    Martha Martin<span>Executive Chef</span>
-                  </h3>
-                  <p class="team-text">
-                    Nulla quis efficitur lacus sulvinar suere ausue in eduis
-                    euro vesatien arcuman ontese auctor ac aleuam aretra.
-                  </p>
-                  <div class="social">
-                    <div class="full-width">
-                      <a href="#"><i class="ti-linkedin"></i></a>
-                      <a href="#"><i class="ti-facebook"></i></a>
-                      <a href="#"><i class="ti-twitter"></i></a>
-                      <a href="#"><i class="ti-instagram"></i></a>
-                    </div>
+
+              <!-- Optionnel: Ajouter d'autres membres de l'équipe ici, si pertinent -->
+              <!-- Exemple de carte pour un autre membre (à adapter/décommenter si besoin) -->
+              <!-- <div class="team-card mb-30">
+              <div class="team-img">
+                <img src="/assets/img/team/chef_patissier.jpg" alt="Nom Autre Membre - Titre" class="w-100" />
+              </div>
+              <div class="team-content">
+                <h3 class="team-title">
+                  Nom Autre Membre<span>Titre du Membre</span>
+                </h3>
+                <p class="team-text">
+                  Courte description de l'autre membre de l'équipe, son rôle et son expertise chez KD Bakery.
+                </p>
+                 <div class="social">
+                  <div class="full-width">
+                    <a href="#"><i class="ti-linkedin"></i></a>
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
                   </div>
-                </div>
-                <div class="title-box">
-                  <h3 class="mb-0">Martha Martin<span>Executive Chef</span></h3>
                 </div>
               </div>
-              <div class="team-card mb-30">
-                <div class="team-img">
-                  <img src="/assets/img/team/chef3.jpg" alt="" class="w-100" />
-                </div>
-                <div class="team-content">
-                  <h3 class="team-title">
-                    Robert Dan<span>Group Head Chef</span>
-                  </h3>
-                  <p class="team-text">
-                    Nulla quis efficitur lacus sulvinar suere ausue in eduis
-                    euro vesatien arcuman ontese auctor ac aleuam aretra.
-                  </p>
-                  <div class="social">
-                    <div class="full-width">
-                      <a href="#"><i class="ti-linkedin"></i></a>
-                      <a href="#"><i class="ti-facebook"></i></a>
-                      <a href="#"><i class="ti-twitter"></i></a>
-                      <a href="#"><i class="ti-instagram"></i></a>
-                    </div>
+              <div class="title-box">
+                <h3 class="mb-0">Nom Autre Membre<span>Titre du Membre</span></h3>
+              </div>
+            </div> -->
+
+              <!-- Supprimer les cartes de chefs génériques -->
+              <!--
+            <div class="team-card mb-30">
+              <div class="team-img">
+                <img src="/assets/img/team/chef2.jpg" alt="" class="w-100" />
+              </div>
+              <div class="team-content">
+                <h3 class="team-title">
+                  Martha Martin<span>Executive Chef</span>
+                </h3>
+                <p class="team-text">
+                  Nulla quis efficitur lacus sulvinar suere ausue in eduis
+                  euro vesatien arcuman ontese auctor ac aleuam aretra.
+                </p>
+                <div class="social">
+                  <div class="full-width">
+                    <a href="#"><i class="ti-linkedin"></i></a>
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
                   </div>
                 </div>
-                <div class="title-box">
-                  <h3 class="mb-0">Robert Dan<span>Group Head Chef</span></h3>
-                </div>
+              </div>
+              <div class="title-box">
+                <h3 class="mb-0">Martha Martin<span>Executive Chef</span></h3>
               </div>
             </div>
+            <div class="team-card mb-30">
+              <div class="team-img">
+                <img src="/assets/img/team/chef3.jpg" alt="" class="w-100" />
+              </div>
+              <div class="team-content">
+                <h3 class="team-title">
+                  Robert Dan<span>Group Head Chef</span>
+                </h3>
+                <p class="team-text">
+                  Nulla quis efficitur lacus sulvinar suere ausue in eduis
+                  euro vesatien arcuman ontese auctor ac aleuam aretra.
+                </p>
+                <div class="social">
+                  <div class="full-width">
+                    <a href="#"><i class="ti-linkedin"></i></a>
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="title-box">
+                <h3 class="mb-0">Robert Dan<span>Group Head Chef</span></h3>
+              </div>
+            </div>
+            --></div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Wine Banner -->
     <!-- <section class="wine-banner menu-book bg-blck">
       <div class="container-fluid">
