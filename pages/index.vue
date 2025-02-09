@@ -33,7 +33,8 @@
                 <h6>KD Bakery</h6>
                 <h1>Une expérience unique<span>au Sénégal</span></h1>
                 <h4>
-                  Rejoignez-nous pour découvrir la perfection de la pâtisserie
+                  Rejoignez-nous pour découvrir la perfection de la
+                  boulangerie-pâtisserie et l'excellence de notre restaurant.
                 </h4>
                 <a href="#" data-scroll-nav="2" class="button-1 mt-30"
                   >Rejoignez-nous<span></span
@@ -72,11 +73,11 @@
               <div class="section-title">À Propos de Nous</div>
             </div>
             <p class="tw-text-[#777]">
-              KD Bakery est une boulangerie de luxe alliant également un
-              restaurant et un bar, offrant une expérience culinaire
-              exceptionnelle au Sénégal. Le site internet, actuellement en
-              construction, a pour but de non seulement mettre en avant
-              l’exception de la boulangerie, mais aussi de créer une véritable
+              KD Bakery est une boulangerie-pâtisserie de luxe alliant également
+              un restaurant, offrant une expérience culinaire exceptionnelle au
+              Sénégal. Le site internet, actuellement en construction, a pour
+              but de non seulement mettre en avant l’exception de la
+              boulangerie-pâtisserie, mais aussi de créer une véritable
               communauté autour de cet espace accueillant et raffiné.
             </p>
             <p class="tw-text-[#777]">
@@ -359,10 +360,10 @@
             <div class="item">
               <span class="icon flaticon-cooking"></span>
               <div class="cont">
-                <h5>Fusion Franco-Sénégalaise</h5>
+                <h5>Fusion de Saveurs</h5>
                 <p class="tw-text-[#777]">
-                  La rencontre subtile des techniques françaises et des saveurs
-                  authentiques du Sénégal.
+                  Une harmonie parfaite entre l'art culinaire et les saveurs
+                  traditionnelles du Sénégal.
                 </p>
               </div>
             </div>
@@ -371,7 +372,7 @@
             <div class="item">
               <span class="icon flaticon-tray-2"></span>
               <div class="cont">
-                <h5>Ingrédients Locaux d'Exception</h5>
+                <h5>Ingrédients d'Exception</h5>
                 <p class="tw-text-[#777]">
                   Des ingrédients frais et savoureux, issus du terroir
                   sénégalais, pour une expérience gustative authentique.

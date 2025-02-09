@@ -1,7 +1,10 @@
 <script lang="ts" setup>
-import { ref } from "vue";
+const name = ref("John");
+name.value = "Jane";
 
-const show = ref(true);
+const count = ref(10);
+
+const doublecount = computed(() => count.value * 2);
 </script>
 
 <template>
