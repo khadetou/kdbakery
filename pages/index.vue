@@ -1,5 +1,17 @@
-<script setup>
+<script setup lang="ts">
 // Your script setup here
+const metadata = useSiteMetadata();
+
+useSeoMeta({
+  title:
+    "Accueil | KD Bakery - Boulangerie-Pâtisserie & Restaurant d'Exception",
+  description:
+    "Découvrez KD Bakery, une boulangerie-pâtisserie d'exception et restaurant à Dakar. Savourez nos créations artisanales, du Croissant au Beurre de Karité à la Tarte au Chocolat Noir du Sénégal.",
+  ogDescription:
+    "KD Bakery vous invite à découvrir une expérience culinaire unique, alliant l'excellence de la pâtisserie française aux saveurs du Sénégal. Boulangerie, pâtisserie et restaurant d'exception à Dakar.",
+  keywords:
+    "boulangerie dakar, pâtisserie dakar, restaurant dakar, croissant karité, chocolat sénégal, pâtisserie française, cuisine sénégalaise, KD Bakery",
+});
 </script>
 
 <template>
@@ -9,7 +21,7 @@
       <div class="video-fullscreen-wrap">
         <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
         <div class="video-fullscreen-video" data-overlay-dark="5">
-          <video playsinline="" autoplay="" loop="" muted="">
+          <video playsinline autoplay loop muted>
             <source
               src="https://res.cloudinary.com/didh3wbru/video/upload/f_auto:video,q_auto/Se%CC%81quence_01_1_qljljz"
               type="video/mp4"
@@ -76,7 +88,7 @@
               KD Bakery est une boulangerie-pâtisserie de luxe alliant également
               un restaurant, offrant une expérience culinaire exceptionnelle au
               Sénégal. Le site internet, actuellement en construction, a pour
-              but de non seulement mettre en avant l’exception de la
+              but de non seulement mettre en avant l'exception de la
               boulangerie-pâtisserie, mais aussi de créer une véritable
               communauté autour de cet espace accueillant et raffiné.
             </p>

@@ -24,7 +24,7 @@ interface NavigationItem {
 export const navigationItems: NavigationItem[] = [
   {
     title: "Accueil",
-    path: "#",
+    path: "/",
     isDropdown: false,
     active: true,
     dropdownItems: [
